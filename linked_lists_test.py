@@ -12,3 +12,6 @@ class TestNode(unittest.TestCase):
         """
         self.new_node = LLNode(6)
         self.assertEqual(print(self.new_node), "Value is: 6")
+
+if __name__ == '__main__':
+    unittest.main()
